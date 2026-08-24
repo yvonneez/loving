@@ -2,9 +2,9 @@ export default function TopicList({ topics, onStart }) {
   return (
     <div>
       
-      <h4>A revision module for IGSCE,GCSE & SSCE</h4>
-      <h1>Revise with me- Chemistry (Daltons Atomic Theory)</h1>
-           <h2>Select a Topic:</h2>
+     
+           <h2>Test the health of your relationship</h2>
+            <h3>It is designed for reflection purposes ONLY</h3>
       <ul className="topic-list">
         {topics.map((topic,i)=>(
           <li key={i} onClick={()=>onStart(topic)}>{topic.title}</li>

@@ -4,15 +4,19 @@ export default function Result({ topic, userAnswers, onNext }) {
   return (
     <div>
       <h2>Results</h2>
-      <h3>Your score: {score} / {topic.questions.length}</h3>
-
+      <h3>Your score : {score} / {topic.questions.length}</h3>
+      <h4>13–15: Strong and healthy relationship
+16–20: Generally positive
+11–15: Relationship needs attention
+6–10: Significant concerns
+1–5: Serious concerns</h4>
       {topic.questions.map((q,i)=>(
         <div key={i} className="question-box">
           <p><strong>Q{i+1}.</strong> {q.question}</p>
           <p className={userAnswers[i]===q.answer ? "correct" : "wrong"}>
             Your answer: {q.options[userAnswers[i]] || "No answer"}
           </p>
-          <p>Correct answer: {q.options[q.answer]}</p>
+          <p>Expected response: {q.options[q.answer]}</p>
         </div>
       ))}
 
