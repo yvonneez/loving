@@ -1,4 +1,4 @@
-body{background:rgb(29, 10, 10);color:rgb(253, 252, 252);font-family:Arial;padding:20px;} .container{max-width:800px;margin:auto;} .topic-list li{padding:12px;background:#ffffff33;margin:10px 0;border-radius:6px;cursor:pointer;} button{padding:10px 20px;margin-top:15px;border-radius:6px;} .question-box{background:#ffffff22;padding:15px;margin:10px 0;border-radius:6px;} .correct{color:#00ff00;font-weight:bold;} .wrong{color:#ff3333;font-weight:bold;} footer{text-align:center;margin-top:40px;} input[type="radio"] {
+body{background:rgb(189, 128, 161);color:rgb(253, 252, 252);font-family:Arial;padding:20px;} .container{max-width:800px;margin:auto;} .topic-list li{padding:12px;background:#ffffff33;margin:10px 0;border-radius:6px;cursor:pointer;} button{padding:10px 20px;margin-top:15px;border-radius:6px;} .question-box{background:#ffffff22;padding:15px;margin:10px 0;border-radius:6px;} .correct{color:#00ff00;font-weight:bold;} .wrong{color:#ff3333;font-weight:bold;} footer{text-align:center;margin-top:40px;} input[type="radio"] {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
   transform: scale(1.5);
