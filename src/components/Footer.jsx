@@ -1,1 +1,1 @@
-export default function Footer(){ return <footer>Powered by YvezConsult @2026 Tel:+34 672030309</footer>; }
+export default function Footer(){ return <footer><center>Powered by YvezConsult @2026 Tel:+34 672030309</center></footer>; }

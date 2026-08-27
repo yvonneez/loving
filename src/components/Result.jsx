@@ -6,9 +6,9 @@ export default function Result({ topic, userAnswers, onNext }) {
       <h2>Results</h2>
       <h3>Your score : {score} / {topic.questions.length} </h3>
       <h4>score of 17-20: Strong and healthy relationship,
-13–16: Generally positive
-9–12: Relationship needs attention
-5–8: Significant concerns
+13–16: Generally positive,
+9–12: Relationship needs attention,
+5–8: Significant concerns,
 1–4: Serious concerns. Areas of concern are in color red.</h4>
       {topic.questions.map((q,i)=>(
         <div key={i} className="question-box">
@@ -20,7 +20,7 @@ export default function Result({ topic, userAnswers, onNext }) {
         </div>
       ))}
 
-      <button onClick={onNext}>Back to Topics</button>
+      <button onClick={onNext}>Back to Top</button>
     </div>
   );
 }
