@@ -5,7 +5,7 @@ export default function Quiz({ topic, onSubmit }) {
 
   return (
     <div>
-      <h2>{topic.title} – Quiz</h2>
+      <h2>{topic.title} – Quiz (20 questions)</h2>
       {topic.questions.map((q,i)=>(
         <div key={i} className="question-box">
           <p><strong>Q{i+1}.</strong> {q.question}</p>

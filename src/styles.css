@@ -20,8 +20,13 @@ body {
   background:transparent;
 }
 body {
-  color: white;
+  color: rgb(244, 242, 242);
+  
 }
+ body {
+    padding: 60px; /* Adds 20 pixels of space on all sides */
+    text-align: center;
+  }
 .app {
   min-height: 100vh;
   display: flex;
@@ -49,4 +54,11 @@ body {
 .topic-list li  {
       text-decoration: underline !important;
 
+}
+.question-box {
+  margin-bottom: 30px;
+  padding: 20px;
+ 
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
